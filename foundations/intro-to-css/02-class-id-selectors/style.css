@@ -1,0 +1,19 @@
+.pink-bg-with-custom-font {
+  background-color: hsl(350, 76%, 65%);
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#blue-txt-custom-size {
+  color: #3232e6;
+  font-size: 36px;
+}
+
+.custom-size {
+  font-size: 24px;
+}
+
+#light-green-bg-custom-size-bold {
+  background-color: rgb(41, 219, 41);
+  font-size: 24px;
+  font-weight: bold;
+}
