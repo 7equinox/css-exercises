@@ -5,13 +5,17 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  
+  display: flex;
+  flex-direction: column;
 }
 
+/* must fix: There is space between the logo, input and buttons. */
 img {
   width: 600px;
 }
 
-button {
+button { /* must fix: The buttons have an appropriate amount of padding. */
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
@@ -23,4 +27,37 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.footer { /* fix this, footer must be sticky footer */
+  margin-top: auto;
+  background-color: #eeeeee;
+}
+
+.header,
+.footer {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
